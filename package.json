@@ -1,25 +1,16 @@
 {
-  "name": "clapper",
-  "version": "1.0.5",
-  "repository": "git://github.com/hofan41/clapper",
-  "description": "Third-party acl plugin for hapi bell",
+  "name": "vtv-backend-clapper",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ho-Fan Kang <me@hofan41.com> (http://www.hofan41.com)",
-  "licenses": [
-    {
-      "type": "BSD"
-    }
-  ],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "bell": "2.x.x",
-    "boom": "2.x.x",
-    "hapi-auth-cookie": "3.x.x",
-    "hapi-require-https": "2.x.x",
-    "hoek": "2.x.x",
-    "joi": "6.x.x",
-    "promise": "7.x.x"
+    "clapper": "^1.0.0",
+    "handlebars": "^3.0.3",
+    "hapi": "^8.8.0"
   }
 }
